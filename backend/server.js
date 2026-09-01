@@ -59,3 +59,6 @@ mongoose
     console.error("❌ MongoDB connection failed:", err.message);
     process.exit(1);
   });
+
+// Export Express app for Vercel
+module.exports = app;
